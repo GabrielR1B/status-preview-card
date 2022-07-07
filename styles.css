@@ -1,0 +1,70 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: hsl(244, 38%, 16%);
+    margin: 6em 10em;
+    background-color: hsl(244, 38%, 16%);
+}
+
+.card{
+    padding:2em 7em 2em 5em;
+
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    font-size: 36px;
+    font-weight:700;
+    font-family: 'Inter', sans-serif;
+}
+
+.insights {
+    color: hsl(277, 64%, 61%);
+}
+
+.text {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+    word-spacing:3px;
+    line-height:26px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 64px 52px 0px 0px;
+    padding:0;
+}
+
+
+.stats__number {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-bottom:13px;
+}
+
+.stats__text {
+    color: hsla(0, 0%, 100%, 0.6);
+    margin: 2px auto;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:400;
+}
+
+.image {
+    width: 100%;
+ 
+}
+
+.attribution{
+    color:white;
+}
